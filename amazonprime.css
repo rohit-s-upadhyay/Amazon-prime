@@ -1,0 +1,546 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-image: url(./images/Amazon\ bg);
+    background-repeat: no-repeat;
+    background-size: 100%; */
+}
+nav{
+    width: 100%;
+    background-color: #00050d;
+}
+#navi{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    /* background-color: yellow; */
+}
+#navi>a{
+    display: none;
+}
+#navi>#logo{
+    width: 112px;
+    height: 6vh;
+    margin-top: 1rem;
+    margin-right: 5px;
+}
+#navi>ul{
+    display: flex;
+}
+#navi>ul>li{
+    list-style-type: none;
+}
+.fa-magnifying-glass
+{
+    color: white;
+    font-size: 1.5rem;
+    padding: 5px;
+    position: relative;
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
+.fa-user{
+    color: white;
+    border: 1 solid grey;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: gray;
+}
+#navi>ul>li>a{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 2rem;
+    color: rgba(255, 255, 255, 0.596);
+    font-size: 21px;
+}
+#drop{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    position: absolute;
+    /* top: 100%;
+    right: 0;
+    width: 200%; */
+    display: none;
+
+}
+#home{
+    position: relative;
+}
+#home:hover #drop{
+    display: block;
+    background-color: grey;
+    padding: 0rem;
+    padding-left: 0;
+}
+#drop>li>a{
+    text-decoration: none;
+    color: grey;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.651);
+    padding: 1rem;
+    padding-left: 4px;
+}
+#drop>li>a:hover{
+    background-color: white;
+}
+#drop-2{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    position: absolute;
+    /* top: 100%;
+    right: 0;
+    width: 200%; */
+    display: none;
+
+}
+#hstore{
+    position: relative;
+}
+#store:hover #drop-2{
+    display: block;
+    background-color: grey;
+    padding: 0rem;
+    padding-left: 0;
+}
+#drop-2>li>a{
+    text-decoration: none;
+    color: grey;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.726);
+    padding: 1rem;
+    padding-left: 4px;
+}
+#drop-2>li>a:hover{
+    background-color: white;
+}
+#first{
+    background-image: url(./images/Amazon\ bg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 99vh;
+
+
+}
+#first>div{
+    width: 43%;
+    /* background-color: rgba(0, 0, 0, 0.774); */
+    height: 93%;
+    padding-top: 2rem;
+    margin-left: 3rem;
+}
+#first>div>h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 10;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+#first>div>p{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 10;
+    margin-bottom: 10px;
+}
+#first>div>button{
+
+    width: 45%;
+    height: 10vh;
+    border-radius: 4px;
+    background-color: #0f79af;
+    color: white;
+    border: none;
+    font-size: 1rem;
+
+}
+#first-2{
+    background-image: url(./images/Napolean);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 78vh;
+
+
+}
+#first-2>div{
+    width: 43%;
+    /* background-color: rgba(0, 0, 0, 0.774); */
+    height: 63vh;
+    padding-top: 6rem;
+    margin-left: 3rem;
+}
+#first-2>div>h1{
+    color: white;
+    font-size: 2.6rem;
+    font-weight: 10;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+#first-2>div>p{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 10;
+    margin-bottom: 2rem;
+}
+#first-2>div>button{
+
+    width: 45%;
+    height: 8vh;
+    border-radius: 4px;
+    background-color: #0f79af;
+    color: white;
+    border: none;
+    font-size: 14px;
+
+}
+#first-3{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#first-3>#left{
+    width: 50%;
+}
+#first-3>#left>h1{
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.849);
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+#first-3>#left>p{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.63);
+    font-weight: 10;
+}
+#first-3>#right{
+    display: flex;
+    width: 50%;
+    padding-right: 2rem;
+}
+#first-3>#right>ul{
+    width: 28%;
+}
+#first-3>#right>ul>li{
+    width: 120%;
+    list-style-type: none;
+}
+#first-3>#right>ul>li>img{
+    width: 100%;
+}
+#first-3>#right>ul>li>img:hover{
+    transform: scale(1.05);
+}
+#first-4{
+    background-image: url(./images/MLP_Template_Image_Left.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content:right;
+    /* background-color: black; */
+    
+}
+/* #first-4>#left-2{
+    width: 50%;
+}
+#first-4>#left-2>img{
+    height: 80vh;
+    width: 100%;
+} */
+#first-4>#right-2{
+
+    width: 45%;
+    color: white;
+
+}
+#first-4>#right-2>h1{
+    font-size: 2.5rem;
+
+}
+#first-4>#right-2>p{
+    font-size: 1.5rem;
+}
+#first-4>#right-2>button{
+    width: 45%;
+    height: 8vh;
+    border-radius: 2px;
+    background-color: #0f79af;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    background-color:
+    #222222;
+
+
+}
+#footer>div>img{
+    position: relative;
+    top: 6%;
+    left: 36%;
+    margin-top: 1.5rem;
+}
+#footer>div>a{
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(0, 140, 255, 0.801);
+    position: relative;
+    left: 4%;
+    margin-right: 1rem;
+    margin-top: 8px;
+    font-size: 1rem;
+
+}
+#footer>div>span{
+    padding-top: 1rem;
+    margin-left: 1.5rem;
+    color: grey;
+}
+@media (max-width:600px)
+{ 
+    nav{
+        width: 100%;
+        background-color: #00050d;
+    }
+    #navi{
+        width: 90%;
+        display: flex;
+        margin: auto;
+        /* background-color: yellow; */
+        position: relative;
+        height: 5vh;
+    }
+    #navi>a{
+        display: block;
+        color: white;
+        text-decoration: none;
+        margin-top: 1rem;
+    }
+    #navi>#logo{
+        width: 25%;
+        height: 2vh;
+        margin-top: 0;
+        margin-right: 0px;
+        position: absolute;
+        top: 30%;
+        left: 30%;
+    }
+    #navi>ul>li>a{
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 2px;
+        color: rgba(255, 255, 255, 0.596);
+        font-size: 13px;
+        display: none;
+    }
+    .fa-magnifying-glass
+{
+    color: rgba(255, 255, 255, 0.575);
+    font-size: 1.5rem;
+    padding: 5px;
+    position: relative;
+    left: 244%;
+    margin-top: -8px;
+}
+.fa-user{
+    color: white;
+    border: 1 solid grey;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: rgb(133, 171, 184);
+    position: relative;
+    left: 845%;
+    margin-top: -8px;
+}
+    #first{
+        background-image: url(./images/Amazon\ bg);
+        background-repeat: no-repeat;
+        background-size: 170%;
+        background-position-x: right;
+        height: 99vh;
+        background-color: black;
+    
+    
+    }
+    #first>div{
+        width: 100%;
+        background-color: black;
+        height: 50%;
+        padding-top: 2rem;
+        margin-left: 0;
+        text-align: center;
+        position: relative;
+        top: 32%;
+    }
+    #first>div>h1{
+        color: white;
+        font-size: 3rem;
+        font-weight: 10;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    #first>div>p{
+        color: white;
+        font-size: 1.4rem;
+        width: 80%;
+        margin: auto;
+        font-weight: 10;
+        margin-bottom: 10px;
+    }
+    #first>div>p>br{
+        display: none;
+    }
+    #first>div>button{
+    
+        width: 90%;
+        height: 6vh;
+        border-radius: 4px;
+        background-color: #0f79af;
+        color: white;
+        border: none;
+        font-size: 1rem;
+    
+    }
+    #first-2{
+        background-image: url(./images/Napolean);
+        background-repeat: no-repeat;
+        background-size: 200%;
+        background-position-x: right;
+        height: 78vh;
+    
+    
+    }
+    #first-2>div{
+        width: 100%;
+        background-color: black;
+        height: 30vh;
+        padding-top: 2px;
+        margin-left: 0;
+        text-align: center;
+        position: relative;
+        top: 55%;
+        padding-bottom: 8rem;
+    }
+    #first-2>div>h1{
+        color: white;
+        font-size: 2.4rem;
+        font-weight: 10;
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+    #first-2>div>p{
+        color: white;
+        font-size: 1.2rem;
+        width: 80%;
+        margin: auto;
+        font-weight: 10;
+        margin-bottom: 2rem;
+    }
+    #first-2>div>button{
+    
+        width: 90%;
+        height: 6vh;
+        border-radius: 4px;
+        background-color: #0f79af;
+        color: white;
+        border: none;
+        font-size: 1rem;
+    
+    }
+    #first-3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #first-3>#left{
+        width: 100%;
+        text-align: center;
+        padding-top: 6rem;
+    }
+    #first-3>#left>h1{
+        font-size: 2.6rem;
+        width: 70%;
+        margin: auto;
+        color: rgb(0,0,0);
+        font-weight: 100;
+        margin-bottom: 5px;
+    }
+    #first-3>#left>p{
+        width: 90%;
+        font-size: 1.4rem;
+        margin: auto;
+        color: rgba(0, 0, 0, 0.63);
+        font-weight: 10;
+        margin-bottom: 0;
+    }
+    #first-3>#left>p>br{
+        display: none;
+    }
+    #first-3>#right{
+        display: flex;
+        width: 100%;
+        padding-right: 0px;
+        padding-bottom: 6rem;
+    }
+    #first-3>#right>ul{
+        width: 20%;
+
+    }
+    #first-3>#right>ul>li{
+        width: 125%;
+        list-style-type: none;
+    }
+    #first-3>#right>ul>li>img{
+        width: 100%;
+    }
+    #first-4{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        
+    }
+    #first-4>#left-2{
+        width: 100%;
+    }
+    #first-4>#left-2>img{
+        height: 50vh;
+        width: 100%;
+    }
+    #first-4>#right-2{
+        width: 90%;
+        margin: auto;
+        color: rgba(255, 255, 255, 0.781);
+        padding-bottom: 10rem;
+    
+    }
+    #first-4>#right-2>h1{
+        font-size: 2rem;
+    
+    }
+    #first-4>#right-2>p{
+        font-size: 1.1rem;
+    }
+    #first-4>#right-2>p>br{
+        display: none;
+    }
+    #first-4>#right-2>button{
+        width: 100%;
+        height: 6vh;
+        border-radius: 2px;
+        background-color: #0f79af;
+        color: white;
+        border: none;
+        font-size: 16px;
+    }
+    #footer{
+        height: 20vh;
+    }
+
+}
